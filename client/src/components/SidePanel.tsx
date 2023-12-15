@@ -27,7 +27,9 @@ const SidePanel = () => {
           className="item2"
           sx={{ marginBottom: "30px" }}
         >
-          <span className="side2">Plumbing</span>
+          <a href="/plumbing" className="side2">
+            <span className="side2">Plumbing</span>
+          </a>
           <ul>
             <li className="q-peitems">Residential Plumbing</li>
             <li className="q-peitems">Construction Plumbing</li>
@@ -56,7 +58,9 @@ const SidePanel = () => {
           className="item2"
           sx={{ marginBottom: "30px" }}
         >
-          <span className="side2">Electrical</span>
+          <a href="/electrical" className="side2">
+            <span className="side2">Electrical</span>
+          </a>
           <ul>
             <li className="q-peitems">Residential Electrical</li>
             <li className="q-peitems">Construction Electrical</li>
