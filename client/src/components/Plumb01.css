@@ -3,16 +3,16 @@
   background-size: cover;
   background-color: rgb(38, 33, 33);
   background-blend-mode: overlay;
-  height: 60vh;
+  height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
   color: antiquewhite;
-  font-size: 80px;
+  font-size: 60px;
 }
 @media (max-width: 768px) {
   .plumb01 {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
   }
 }

@@ -11,12 +11,12 @@ const SidePanel = () => {
           sm={12}
           md={12}
           className="item1"
-          sx={{ marginBottom: "30px" }}
+          sx={{ marginBottom: "20px" }}
         >
           <span className="side1">
             WE WORK <br />
             FOR &nbsp;YOUR <br />
-            &nbsp;SATISFACTION
+            SATISFACTION
           </span>
         </Grid>
         <Grid
