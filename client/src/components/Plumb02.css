@@ -1,10 +1,10 @@
 #p2 {
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 .plumb02 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 20px;
+  gap: 40px;
 }

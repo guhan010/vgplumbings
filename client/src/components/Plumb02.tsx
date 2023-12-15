@@ -9,7 +9,7 @@ const Plumb02 = () => {
         <Grid item xs={12} sm={4} md={4}>
           <img src={p3} alt="plumbing" id="p2" />
         </Grid>
-        <Grid item xs={12} sm={8} md={6} className="plumb02body">
+        <Grid item xs={12} sm={8} md={7} className="plumb02body">
           <Box>
             <Typography>
               Count on us to flush out your plumbing problems. We pride

@@ -3,6 +3,7 @@ import SidePanel from "../components/SidePanel.tsx";
 import Plumb01 from "../components/Plumb01.tsx";
 import Plumb02 from "../components/Plumb02.tsx";
 import "./Plumbing.css";
+import Plumb03 from "../components/Plumb03.tsx";
 
 const Plumbing = () => {
   return (
@@ -14,6 +15,7 @@ const Plumbing = () => {
         <Grid item xs={12} sm={8} md={8}>
           <Grid>
             <Plumb02 />
+            <Plumb03 />
           </Grid>
         </Grid>
         <Grid item xs={12} sm={4} md={3}>
