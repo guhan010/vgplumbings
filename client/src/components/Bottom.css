@@ -1,0 +1,43 @@
+.customGrid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: left;
+  color: whitesmoke;
+  width: 100%;
+  margin-top: 5vh;
+}
+.customGridContainer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background-image: url("../assets/bottombg.jpeg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  padding: 20px;
+  height: 75vh;
+  gap: 40px;
+  overflow-y: auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+a:hover {
+  color: grey;
+}
+.customTypography {
+  font-size: 35px;
+  color: whitesmoke;
+  margin-bottom: 10px;
+}
+.customBody {
+  font-size: 20px;
+}

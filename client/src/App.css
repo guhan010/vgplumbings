@@ -1,0 +1,26 @@
+html,
+body,
+#root {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
+}
+
+.content {
+  position: relative;
+  padding-bottom: 80px;
+  min-height: calc(100% - 80px);
+  overflow-y: auto;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  text-align: center;
+}

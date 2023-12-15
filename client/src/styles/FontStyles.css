@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Oswald", sans-serif;
+  src: url("../fonts/Oswald-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Fira Sans", sans-serif;
+  src: url("../fonts/FiraSans-Medium.ttf");
+}
+.customTypography {
+  font-family: "Oswald", sans-serif;
+}
+.customBody {
+  font-family: "Fira Sans", sans-serif;
+}
