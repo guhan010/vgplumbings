@@ -1,6 +1,5 @@
 import "./Dropdown.css";
 import { Eitems } from "./Eitems.tsx";
-import { Link } from "react-router-dom";
 
 import { useState } from "react";
 
@@ -16,14 +15,8 @@ const ElectricDrop = () => {
         className={click ? "dropdown-menu clicked" : "dropdown-menu"}
       >
         {Eitems.map((item) => (
-          <li key={item.title}>
-            <Link
-              to={item.path}
-              className={item.cName}
-              onClick={() => setClick(false)}
-            >
-              {item.title}
-            </Link>
+          <li key={item.title} className={item.cName}>
+            {item.title}
           </li>
         ))}
       </ul>

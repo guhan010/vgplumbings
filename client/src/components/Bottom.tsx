@@ -2,7 +2,6 @@ import "./Bottom.css";
 import "../styles/FontStyles.css";
 import { Box, Grid } from "@mui/material";
 import { Pitems } from "./navbar/Pitems.tsx";
-import { Link } from "react-router-dom";
 import { Eitems } from "./navbar/Eitems.tsx";
 
 const Bottom = () => {
@@ -12,7 +11,7 @@ const Bottom = () => {
         <Grid item xs={12} sm={6} md={3}>
           <Box className="customGrid">
             <span className="customTypography">ABOUT US</span>
-            <span className="customBody">
+            <span className="customBody aboutbd">
               With Experience for several years, our technicians and unmatched
               customer care are your best bet when you need installation or any
               plumbing, AC, and electrical services. Learn more about our{" "}
@@ -26,10 +25,8 @@ const Bottom = () => {
             <Grid className="customBody">
               <ul className="ul-bottom">
                 {Pitems.map((item) => (
-                  <li key={item.title}>
-                    <Link to={item.path} className="ep-items">
-                      {item.title}
-                    </Link>
+                  <li key={item.title} className="ep-items">
+                    {item.title}
                   </li>
                 ))}
               </ul>
@@ -42,10 +39,8 @@ const Bottom = () => {
             <Grid className="customBody">
               <ul className="list-b">
                 {Eitems.map((item) => (
-                  <li className="list-b" key={item.title}>
-                    <Link to={item.path} className="ep-items">
-                      {item.title}
-                    </Link>
+                  <li key={item.title} className="ep-items">
+                    {item.title}
                   </li>
                 ))}
               </ul>

@@ -50,7 +50,7 @@ img {
 }
 
 .nav-links:hover {
-  background-color: grey;
+  background-color: rgb(0, 0, 0);
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }

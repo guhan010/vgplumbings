@@ -14,7 +14,7 @@
   align-items: start;
   background-image: url("../assets/bottombg.jpeg");
   background-size: cover;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgb(38, 33, 33);
   background-blend-mode: overlay;
   padding: 20px;
   height: 75vh;
@@ -25,10 +25,22 @@ ul {
   list-style: none;
   padding: 0;
 }
+.ep-items {
+  padding: 7px 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(228, 245, 131);
+  font-weight: 600;
+}
+.aboutbd {
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 7px 0;
+  color: rgb(228, 245, 131);
+}
 
 a {
   text-decoration: none;
-  color: whitesmoke;
+  color: rgb(228, 245, 131);
 }
 a:hover {
   color: grey;
