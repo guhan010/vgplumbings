@@ -1,0 +1,18 @@
+.plumb01 {
+  background-image: url("../assets/p1.jpg");
+  background-size: cover;
+  background-color: rgb(38, 33, 33);
+  background-blend-mode: overlay;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+  font-size: 80px;
+}
+@media (max-width: 768px) {
+  .plumb01 {
+    font-size: 40px;
+    text-align: center;
+  }
+}
