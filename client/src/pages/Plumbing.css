@@ -1,5 +1,27 @@
 .plumbcontainer {
   display: flex;
-  justify-content: space-evenly;
-  padding: 80px 21px 50px 21px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 20px 20px 20px;
+}
+
+.sub-div1 {
+  flex-grow: 1;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px; /* Add margin bottom for spacing */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+@media screen and (max-width: 650px) {
+  .main-container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+  }
+
+  .sub-div1 {
+    width: 100%; /* Make both sub-divs take full width on smaller screens */
+  }
 }

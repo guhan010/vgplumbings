@@ -1,15 +1,27 @@
 import { Grid } from "@mui/material";
 import SidePanel from "../components/SidePanel.tsx";
+import "./Plumbing.css";
+import Ac02 from "../components/Ac02.tsx";
+import Ac03 from "../components/Ac03.tsx";
+import Ac01 from "../components/Ac01.tsx";
 
 const AirCon = () => {
   return (
     <div>
-      <Grid container spacing={2}>
-        <Grid item xs={12} sm={8} md={8}></Grid>
-        <Grid item xs={12} sm={4} md={4}>
-          <SidePanel />
-        </Grid>
+      <Grid>
+        <Ac01 />
       </Grid>
+      <div className="main-container">
+        <div className="sub-div1">
+          <Grid>
+            <Ac02 />
+            <Ac03 />
+          </Grid>
+        </div>
+        <div className="plumbcontainer">
+          <SidePanel />
+        </div>
+      </div>
     </div>
   );
 };

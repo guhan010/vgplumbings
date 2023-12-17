@@ -11,17 +11,17 @@ const Electrical = () => {
       <Grid>
         <Elec01 />
       </Grid>
-      <Grid container spacing={4} className="plumbcontainer">
-        <Grid item xs={12} sm={8} md={8}>
+      <div className="main-container">
+        <div className="sub-div1">
           <Grid>
             <Elec02 />
             <Elec03 />
           </Grid>
-        </Grid>
-        <Grid item xs={12} sm={4} md={3}>
+        </div>
+        <div className="plumbcontainer">
           <SidePanel />
-        </Grid>
-      </Grid>
+        </div>
+      </div>
     </div>
   );
 };

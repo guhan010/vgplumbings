@@ -1,15 +1,23 @@
 import { Grid } from "@mui/material";
 import SidePanel from "../components/SidePanel.tsx";
+import Res01 from "../components/Res01.tsx";
+import Res03 from "../components/Res03.tsx";
+import "./Plumbing.css";
 
 const Resources = () => {
   return (
     <div>
-      <Grid container spacing={2}>
-        <Grid item xs={12} sm={8} md={8}></Grid>
-        <Grid item xs={12} sm={4} md={4}>
-          <SidePanel />
-        </Grid>
+      <Grid>
+        <Res01 />
       </Grid>
+      <div className="main-container">
+        <div className="sub-div1">
+          <Res03 />
+        </div>
+        <div className="plumbcontainer">
+          <SidePanel />
+        </div>
+      </div>
     </div>
   );
 };

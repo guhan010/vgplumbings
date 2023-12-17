@@ -1,0 +1,18 @@
+.res01 {
+  background-image: url("../assets/re.jpg");
+  background-size: cover;
+  background-color: rgb(38, 33, 33);
+  background-blend-mode: overlay;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: antiquewhite;
+  font-size: 60px;
+}
+@media (max-width: 768px) {
+  .res01 {
+    font-size: 40px;
+    text-align: center;
+  }
+}
