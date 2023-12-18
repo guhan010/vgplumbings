@@ -1,0 +1,43 @@
+.mySwiper {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.slide1 {
+  background-image: url("../assets/hp.jpg");
+  background-size: cover;
+  background-color: rgb(38, 33, 33);
+  background-blend-mode: overlay;
+  color: antiquewhite;
+  font-size: 80px;
+  padding: 150px 0 170px 0;
+}
+.slide2 {
+  background-image: url("../assets/he.jpg");
+  background-size: cover;
+  background-color: rgb(38, 33, 33);
+  background-blend-mode: overlay;
+  color: antiquewhite;
+  font-size: 80px;
+  padding: 150px 0 170px 0;
+}
+.slide3 {
+  background-image: url("../assets/hep.jpg");
+  background-size: cover;
+  background-color: rgb(38, 33, 33);
+  background-blend-mode: overlay;
+  color: antiquewhite;
+  font-size: 80px;
+  padding: 150px 0 170px 0;
+}
+@media (max-width: 768px) {
+  .slide1,
+  .slide2,
+  .slide3 {
+    /* Adjusted to target each individual slide */
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0;
+  }
+}

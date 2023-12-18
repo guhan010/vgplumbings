@@ -1,0 +1,60 @@
+.side-container {
+  width: 350px;
+  height: 100%;
+  border: 0.75rem solid black;
+  background-color: lightgray;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.side-container form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  font-size: 25px;
+}
+
+.side-container label {
+  margin-top: 1rem;
+}
+
+.side-container input[type="text"],
+.side-container input[type="email"],
+.side-container textarea {
+  width: 80%;
+  padding: 17px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+  margin-top: 10px;
+}
+
+.side-container input[type="text"]:focus,
+.side-container input[type="email"]:focus,
+.side-container textarea:focus {
+  border: 2px solid rgba(0, 206, 158, 1);
+}
+
+.side-container input[type="submit"] {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  background: rgb(49, 48, 47);
+  color: white;
+  border: none;
+  font-size: 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  width: 100%;
+  padding: 1rem 0 1rem 0;
+}
+.s3title {
+  font-size: 40px;
+  width: 80%;
+  text-align: center;
+  margin: 5px 0;
+}
