@@ -9,6 +9,7 @@ import Plumbing from "./pages/Plumbing.tsx";
 import Electrical from "./pages/Electrical.tsx";
 import Bottom from "./components/Bottom.tsx";
 import "./App.css";
+import Quote from "./pages/Quote.tsx";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
             <Route path="/resources" element={<Resources />} />
             <Route path="/aircondition" element={<AirCon />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/request-quote" element={<Quote />} />
           </Routes>
         </div>
         <div className="bottom">
